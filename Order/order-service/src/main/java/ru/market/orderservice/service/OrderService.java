@@ -3,6 +3,7 @@ package ru.market.orderservice.service;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import ru.market.orderservice.dto.OrderLineItemsDto;
 import ru.market.orderservice.dto.OrderRequest;
 import ru.market.orderservice.model.Order;
@@ -14,6 +15,7 @@ import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
+@Transactional
 public class OrderService {
     private final OrderRepository orderRepository;
 
