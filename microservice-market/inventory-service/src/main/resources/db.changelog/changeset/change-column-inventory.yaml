@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-inventory
+      author: Mark Forat
+      changes:
+        - renameColumn:
+            tableName: t_inventory
+            newColumnName: sku_code
+            oldColumnName: skuCode

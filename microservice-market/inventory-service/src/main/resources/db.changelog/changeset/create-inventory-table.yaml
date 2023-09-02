@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-inventory
+      author: Mark Forat
+      changes:
+        - createTable:
+            tableName: t_inventory
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: skuCode
+                  type: varchar(200)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: quantity
+                  type: bigint
+                  constraints:
+                    nullable: false
