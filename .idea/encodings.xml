@@ -7,5 +7,14 @@
     <file url="file://$PROJECT_DIR$/Order/order-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Product/product/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Product/product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-market/discovery-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-market/inventory-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-market/inventory-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-market/order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-market/order-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-market/product-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-market/product-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-market/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-market/src/main/resources" charset="UTF-8" />
   </component>
 </project>
